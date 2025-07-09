@@ -24,9 +24,11 @@ No quarto projeto, utilizando o ArgoCD levantamos a aplicação [Online Boutique
 
 ---
 ## 🚪 3 - Rodando localmente >
-### : 
+### Para o terceiro passo, precisei rodar localmente o ArgoCD: 
 
 ![Terceiro print](/Prints/3.1.png)  
+>- Utilizando o comando `kubectl port-forward svc/argocd-server -n argocd 8080:443` já obtemos o resultado esperado;  
+
 ![Quarto print](/Prints/3.2.png)  
 ![Quinto print](/Prints/3.3.png)  
 
