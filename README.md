@@ -67,7 +67,7 @@ No quarto projeto, utilizando o ArgoCD levantamos a aplicação [Online Boutique
 
 ---
 ## 👥 6 - Aumentando número de réplicas >
-### Como desafio extra, precisamos aumentar o número de réplicas da aplicação: 
+### Como desafio extra, precisamos alterar o manifest. Como alteração, escolhi trocar o número de réplicas: 
 ![Print Dezesseis](/Prints/6.1.png)  
 >- Bastou alterar o `replicas` no GitHub que contém o arquivo Ymal, e depois sincronizar no ArgoCD;  
 
