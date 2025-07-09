@@ -34,24 +34,42 @@ No quarto projeto, utilizando o ArgoCD levantamos a aplicação [Online Boutique
 
 ---
 ## 🤖 4 - Configurando a aplicação no ArgoCD >
-### : 
+### E então, configurei a aplicação: 
 ![Sexto print](/Prints/4.1.png)  
+>- Primeiro conectei o repositório do GitHub que contém apenas a pasta da aplicação;  
+
 ![Sétimo print](/Prints/4.2.png)  
+>- Em seguida, comecei a criação da aplicação;  
+
 ![Oitavo print](/Prints/4.3.png)  
 ![Nono print](/Prints/4.4.png)  
+>- A mensagem acima confirma que tudo deu certo, porém ainda precisamos sincronizar;  
+
 ![Décimo print](/Prints/4.5.png)  
 ![Print Onze](/Prints/4.6.png)  
+>- Acima mostra que a sinconização começou;  
+
 ![Print Doze](/Prints/4.7.png)  
+>- Após alguns minutos, a mensagem `healthy` confirma que tudo deu certo;  
 
 ---
 ## 🖥️ 5 - Acessando o front localmente >
-### : 
+### Como último passo, foi exigido o acesso local ao front-end da aplicação: 
 ![Print Treze](/Prints/5.1.png)  
+>- Rodei o comando `kubectl get svc -n default`;  
+>- vemos que o nome do serviço é `frontend`;  
+
 ![Print Quatorze](/Prints/5.2.png)  
+>- E então utilizei o comando `kubectl port-forward svc/frontend 8081:80` para acessar localmente; 
+
 ![Print Quinze](/Prints/5.3.png)  
+>- Acima vemos o resultado quando acessamos o loalhost na porta correta; 
 
 ---
 ## 👥 6 - Aumentando número de réplicas >
-### : 
+### Como desafio extra, precisamos aumentar o número de réplicas da aplicação: 
 ![Print Dezesseis](/Prints/6.1.png)  
-![Print Dezessete](/Prints/6.2.png) 
+>- Bastou alterar o `replicas` no GitHub que contém o arquivo Ymal, e depois sincronizar no ArgoCD;  
+
+![Print Dezessete](/Prints/6.2.png)  
+>- Como podemos ver em `loadgenerator`, as 4 réplicas subiram corretamente; 
