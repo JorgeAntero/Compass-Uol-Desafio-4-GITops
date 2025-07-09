@@ -14,3 +14,42 @@ No quarto projeto, utilizando o ArgoCD levantamos a aplicação [Online Boutique
 ### E depois criei um repositório apenas com arquivo ymal do Online Boutique:  
 
 ![Segundo print](/Prints/1.2.png)  
+
+---
+## 🐙 2 - Baixando o ArgoCD >
+### Em seguida, executei os seguintes comandos no meu PowerShell para instalar o ArgoCD no meu Docker Desktop:  
+
+`kubectl create namespace argocd`  
+`kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argocd/stable/manifests/install.yaml`  
+
+---
+## 🚪 3 - Rodando localmente >
+### : 
+
+![Terceiro print](/Prints/3.1.png)  
+![Quarto print](/Prints/3.2.png)  
+![Quinto print](/Prints/3.3.png)  
+
+---
+## 🤖 4 - Configurando a aplicação no ArgoCD >
+### : 
+![Sexto print](/Prints/4.1.png)  
+![Sétimo print](/Prints/4.2.png)  
+![Oitavo print](/Prints/4.3.png)  
+![Nono print](/Prints/4.4.png)  
+![Décimo print](/Prints/4.5.png)  
+![Print Onze](/Prints/4.6.png)  
+![Print Doze](/Prints/4.7.png)  
+
+---
+## 🖥️ 5 - Acessando o front localmente >
+### : 
+![Print Treze](/Prints/5.1.png)  
+![Print Quatorze](/Prints/5.2.png)  
+![Print Quinze](/Prints/5.3.png)  
+
+---
+## 👥 6 - Aumentando número de réplicas >
+### : 
+![Print Dezesseis](/Prints/6.1.png)  
+![Print Dezessete](/Prints/6.2.png) 
