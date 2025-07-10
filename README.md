@@ -57,13 +57,13 @@ No quarto projeto, utilizando o ArgoCD levantamos a aplicação [Online Boutique
 ### Como último passo, foi exigido o acesso local ao front-end da aplicação: 
 ![Print Treze](/Prints/5.1.png)  
 >- Rodei o comando `kubectl get svc -n default`;  
->- vemos que o nome do serviço é `frontend`;  
+>- Vemos que o nome do serviço é `frontend`;  
 
 ![Print Quatorze](/Prints/5.2.png)  
 >- E então utilizei o comando `kubectl port-forward svc/frontend 8081:80` para acessar localmente; 
 
 ![Print Quinze](/Prints/5.3.png)  
->- Acima vemos o resultado quando acessamos o loalhost na porta correta; 
+>- Acima vemos o resultado quando acessamos o localhost na porta correta; 
 
 ---
 ## 👥 6 - Aumentando número de réplicas >
