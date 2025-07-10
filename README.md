@@ -70,6 +70,7 @@ No quarto projeto, utilizando o ArgoCD levantamos a aplicação [Online Boutique
 ### Como desafio extra, precisamos alterar o manifest. Como alteração, escolhi trocar o número de réplicas: 
 ![Print Dezesseis](/Prints/6.1.png)  
 >- Bastou alterar o `replicas` no GitHub que contém o arquivo Ymal, e depois sincronizar no ArgoCD;  
+>- Versão final do arquivo Ymal [aqui!](https://github.com/JorgeAntero/Compass-Uol-Desafio-4-GITops/blob/main/Online-Boutique-FINAL);
 
 ![Print Dezessete](/Prints/6.2.png)  
 >- Como podemos ver em `loadgenerator`, as 4 réplicas subiram corretamente; 
