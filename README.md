@@ -11,7 +11,7 @@ No quarto projeto, utilizando o ArgoCD levantamos a aplicação [Online Boutique
 
 ![Primeiro print](/Prints/1.1.png)  
 
-### E depois criei um repositório apenas com arquivo ymal do Online Boutique:  
+### E depois criei um repositório apenas com o arquivo ymal do Online Boutique:  
 
 ![Segundo print](/Prints/1.2.png)  
 
